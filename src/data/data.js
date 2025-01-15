@@ -7,7 +7,7 @@ export function createRandomTransaction() {
     iban: faker.finance.iban(),
     bic: faker.finance.bic(),
     currency: faker.finance.currencyCode(),
-    amount: faker.finance.amount(),
+    amount: faker.finance.amount({ min: 1000, max: 1000000 }),
     date: faker.date.between({ from: '2025-01-01', to: '2025-12-31' }).toISOString().split('T')[0],
   };
 }

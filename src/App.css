@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url(./fonts/Lato-Regular.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 900;
+  src: local('Lato'), url(./fonts/Lato-Bold.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 900;
+  src: local('Lato'), url(./fonts/Lato-Black.ttf) format('opentype');
+}
+
+html {
+  font-size: 10px;
+}
+
 .App {
   background-color: #282c34;
   min-height: 100vh;
@@ -7,4 +28,34 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  .handsontable-container {
+    font-family: Lato, Arial, serif;
+    font-size: 1.2rem;
+    height: 1000px;
+    width: 50%;
+    overflow: auto;
+    margin: 100px 0;
+    .handsontable {
+      font-family: inherit;
+    }
+  }
 }
+
+/* th {
+  color: #505250;
+  background: #c4d5d2;
+  border: 0;
+  align-items: center;
+}
+span.colHeader {
+  font-size: 1.2rem;
+  font-weight: 700;    
+}
+td {
+  color: #505250;
+  border: 0;
+  border-bottom: 1px solid #e0e0e0;
+  border-top: 1px solid #e0e0e0;
+  font-size: 1.2rem;
+} */
+

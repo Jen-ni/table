@@ -1,3 +1,30 @@
+# Description of the repository
+
+## Purpose
+
+Evaluating Handsontable
+
+## To-Do
+
+- [x] React version: @handsontable/react-wrapper requires [React@18](https://handsontable.com/docs/react-data-grid/installation/#use-the-hottable-component), lower versions: @handsontable/react
+- [x] [CSP (Content Security Policy)](https://handsontable.com/docs/react-data-grid/security/#content-security-policy-csp)
+- [x] [Snyk](https://handsontable.com/docs/react-data-grid/security/#code-auditing)
+- [x] Accessibility [WCAG 2.1 AA](https://handsontable.com/docs/react-data-grid/accessibility/#accessibility)
+- [x] amount formatting
+- [] date formatting
+- [x] font
+- [x] [size](https://handsontable.com/docs/react-data-grid/grid-size/#grid-size)
+- [ ] cell edit
+  - [ ] [readOnly](https://handsontable.com/docs/react-data-grid/cell-type/#anatomy-of-a-cell-type)
+  - [ ] afterChange, dependencies between fields
+- [ ] sorting
+- [ ] filtering
+- [ ] Validation
+
+## Notes
+
+- sorting icon requires theme
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
