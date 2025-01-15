@@ -11,7 +11,7 @@ Evaluating Handsontable
 - [x] [Snyk](https://handsontable.com/docs/react-data-grid/security/#code-auditing)
 - [x] Accessibility [WCAG 2.1 AA](https://handsontable.com/docs/react-data-grid/accessibility/#accessibility)
 - [x] amount formatting
-- [] date formatting
+- [ ] date formatting
 - [x] font
 - [x] [size](https://handsontable.com/docs/react-data-grid/grid-size/#grid-size)
 - [ ] cell edit
